@@ -23,18 +23,19 @@ This project is built using LangChain, HuggingFace embeddings, FAISS vector data
 
 #  Project Architecture
 
+
 User Query  
-⬇  
+⬇️  
 Streamlit Chat Interface  
-⬇  
-LangChain Retriever
-⬇  
-FAISS Vector Database
-⬇  
-Medical Knowledge Dataset (CSV)
-⬇  
-Groq LLM
-⬇  
+⬇️  
+LangChain Retriever  
+⬇️  
+FAISS Vector Database  
+⬇️  
+Medical Knowledge Dataset (CSV)  
+⬇️  
+Groq LLM  
+⬇️  
 AI Response
 
 ---
@@ -67,4 +68,5 @@ AI Response
 **Author**
 
 **Shravani Mugalikar**
+
 AI | Machine Learning | Generative AI Enthusiast
