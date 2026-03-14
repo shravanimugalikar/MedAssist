@@ -19,16 +19,17 @@ Built using **LangChain, vector embeddings, and a vector database** to provide a
 ---
 
 #  Project Architecture
-User Query
-↓
-LangChain Retriever
-↓
-Vector Database (Medical Knowledge)
-↓
-Relevant Context
-↓
-LLM
-↓
+
+User Query  
+⬇  
+LangChain Retriever  
+⬇  
+Vector Database (Medical Knowledge)  
+⬇  
+Relevant Context  
+⬇  
+LLM  
+⬇  
 AI Response
 
 ---
@@ -55,6 +56,6 @@ AI Response
 
 ---
 
-# Author
+**Author**
 
 **Shravani Mugalikar**
