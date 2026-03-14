@@ -1,20 +1,23 @@
 # MedAssist (LangChain + RAG)
 
-An AI-powered healthcare chatbot that answers medical questions using a **Retrieval-Augmented Generation (RAG)** pipeline.  
-The system retrieves information from a medical PDF knowledge base and generates context-aware responses using an LLM.
+MedAssist AI is an AI-powered healthcare chatbot that answers medical questions using a Retrieval-Augmented Generation (RAG) pipeline.
 
-Built using **LangChain, vector embeddings, and a vector database** to provide accurate and contextual health-related information.
+The system retrieves relevant medical information from a structured medical dataset and generates context-aware responses using a Large Language Model (LLM).
+
+This project is built using LangChain, HuggingFace embeddings, FAISS vector database, Groq LLM, and Streamlit to provide fast and contextual health-related responses.
 
 ---
 
 #  Features
 
-- AI-powered healthcare question answering
+- AI-powered healthcare assistant
 - Retrieval-Augmented Generation (RAG)
-- Medical knowledge extracted from PDF
-- Vector search for relevant medical context
-- Interactive chatbot interface
-- Modular architecture for easy scaling
+- Medical knowledge retrieval from dataset
+- HuggingFace embeddings for semantic search
+- FAISS vector database for fast similarity search
+- Groq-powered LLM responses
+- Interactive chatbot interface using Streamlit
+- Modular and scalable architecture
 
 ---
 
@@ -22,13 +25,15 @@ Built using **LangChain, vector embeddings, and a vector database** to provide a
 
 User Query  
 ⬇  
-LangChain Retriever  
+Streamlit Chat Interface  
 ⬇  
-Vector Database (Medical Knowledge)  
+LangChain Retriever
 ⬇  
-Relevant Context  
+FAISS Vector Database
 ⬇  
-LLM  
+Medical Knowledge Dataset (CSV)
+⬇  
+Groq LLM
 ⬇  
 AI Response
 
@@ -36,12 +41,13 @@ AI Response
 
 # How It Works
 
-- Medical PDF is loaded
-- Text is split into chunks
-- Chunks are converted into vector embeddings
-- Stored in a vector database
-- User query retrieves relevant chunks
-- LLM generates response using retrieved context
+- The medical dataset (CSV) is loaded.
+- The text is split into smaller chunks.
+- Chunks are converted into vector embeddings using HuggingFace models.
+- The embeddings are stored in a FAISS vector database.
+- When a user asks a question, the system retrieves the most relevant medical information.
+- The retrieved context is passed to a Groq LLM.
+- The LLM generates a context-aware healthcare response.
 
 ---
 
@@ -49,8 +55,10 @@ AI Response
 
 - Python
 - LangChain
+- Groq API
+- HuggingFace Embeddings
+- FAISS Vector Database
 - Streamlit
-- Vector Databases
 - Retrieval-Augmented Generation (RAG)
 - Large Language Models (LLMs)
 
@@ -59,3 +67,4 @@ AI Response
 **Author**
 
 **Shravani Mugalikar**
+AI | Machine Learning | Generative AI Enthusiast

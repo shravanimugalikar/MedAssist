@@ -1,6 +1,9 @@
 langchain
+langchain-community
+langchain-groq
+faiss-cpu
+sentence-transformers
 streamlit
-openai
-chromadb
-pypdf
+pandas
 python-dotenv
+pypdf
