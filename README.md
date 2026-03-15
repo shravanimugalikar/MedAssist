@@ -52,6 +52,28 @@ AI Response
 
 ---
 
+## Dependencies
+
+This project was built using the following key libraries:
+
+- Python 3.11
+- langchain >= 0.2.0
+- langchain-community >= 0.2.0
+- langchain-groq >= 0.1.0
+- sentence-transformers >= 2.6.0
+- faiss-cpu >= 1.7.4
+- streamlit >= 1.32.0
+- pandas >= 2.0.0
+- python-dotenv >= 1.0.0
+
+All required libraries and versions are listed in `requirements.txt`.
+
+Install them using:
+pip install -r requirements.txt 
+
+
+---
+
 # Technologies Used
 
 - Python
@@ -67,6 +89,6 @@ AI Response
 
 **Author**
 
-**Shravani Mugalikar**
+Developed by **Shravani Mugalikar**
 
 AI | Machine Learning | Generative AI Enthusiast
